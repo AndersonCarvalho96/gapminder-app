@@ -1,0 +1,12 @@
+# Arquivo de variáveis de ambiente
+.env
+
+# Cache do Streamlit
+.streamlit/
+
+# Pastas comuns de build / Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
