@@ -30,29 +30,29 @@
 
 ## Como usar
 
-###1.Clone o repositório:
+### 1. Clone o repositório:
 
 ```bash
 git clone https://github.com/AndersonCarvalho96/gapminder-app.git
 cd gapminder-app
 ```
-###2.Instale as dependências:
+### 2. Instale as dependências:
 
 pip install -r requirements.txt
 
 
-###3.Crie um arquivo .env com suas credenciais do Databricks:
+### 3. Crie um arquivo .env com suas credenciais do Databricks:
 
 DATABRICKS_HOST=<seu_host>
 DATABRICKS_HTTP_PATH=<seu_http_path>
 DATABRICKS_TOKEN=<seu_token>
 
 
-###4.Rode o Streamlit:
+### 4.Rode o Streamlit:
 
 streamlit run app.py
 
-##Screenshots
+## Screenshots
 
 
 ![População Total](screenshots/População total.png)
