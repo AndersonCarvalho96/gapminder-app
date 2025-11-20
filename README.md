@@ -3,6 +3,8 @@
 📊 Projeto feito com **Streamlit** para explorar dados globais do Gapminder usando Databricks como banco de dados, incluindo população, PIB per capita e expectativa de vida entre as décadas de 1960 e 2020 e com projeção até 2040.
 
 ---
+## Acesso
+Acesse https://exploradordadosglobais.streamlit.app para ter acesso ao Gapminder em tempo real.
 
 ## Funcionalidades
 
@@ -52,8 +54,3 @@ DATABRICKS_TOKEN=<seu_token>
 
 streamlit run app.py
 
-## Screenshots
-
-
-![População Total](screenshots/População total.png)
-![Crescimento Percentual](screenshots/Crescimento Percentual.png)
