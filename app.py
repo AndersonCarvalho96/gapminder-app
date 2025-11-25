@@ -1,7 +1,7 @@
 # app.py
 import streamlit as st
 import pandas as pd
-from data import load_data_from_databricks, prepare_data
+from data import prepare_data,load_data
 from filters import sidebar_filters
 from kpis import exibir_kpis, exibir_explicacao_kpi
 from charts import (
@@ -14,8 +14,7 @@ from charts import (
 st.set_page_config(layout="wide", page_title="Explorador de Dados Globais")
 
 # Carregar dados
-
-df = load_data_from_databricks()
+df = load_data()
 
 if df is None or not isinstance(df, pd.DataFrame) or df.empty:
     st.title("Explorador de Dados Globais")

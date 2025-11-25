@@ -1,6 +1,7 @@
-databricks-sql-connector
+#databricks-sql-connector
 pandas
 streamlit
 plotly
-python-dotenv
 pycountry
+python-dotenv
+
