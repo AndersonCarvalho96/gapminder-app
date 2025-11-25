@@ -44,11 +44,11 @@ Para garantir que o projeto continue funcionando **perfeitamente no portfólio**
 ### Filtros  
 ![Filtros](screenshots/Filtros.png)
 
-### População Total  
-![População](screenshots/População total.png)
+### População Total
+![População](screenshots/populacao_total.png)
 
-### Crescimento Percentual  
-![Crescimento](screenshots/Crescimento Percentual.png)
+### Crescimento Percentual
+![Crescimento](screenshots/crescimento_percentual.png)
 
 ### (Histórico) Conexão com Databricks  
 > Antes da versão 2.0, o app se conectava diretamente a uma tabela hospedada no Databricks.  
